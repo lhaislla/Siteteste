@@ -1,0 +1,139 @@
+/*Parte visual do site*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    color:gray;
+    background:pink;
+    font-family: cursive;
+    height: 100 vh;
+    font-size: 10px;
+    margin-top: 0px;
+
+}
+/* se a tela tiver pelo menos 400px vai carregar esses estilos */
+@media (min-width: 400px) {
+body{
+    font-size: 14px;
+}
+}
+@media(min-width: 600px){
+body{
+    font-size: 18px;
+}
+}
+header {
+    height: 50vh;
+    display: flex;
+
+}
+
+.site-title{
+    text-align: center;;
+}
+.site-subtitle{
+    color: #FF1493 ;
+    margin-left: 900px;
+    margin-left: 580px;
+    margin-block-end: 5px;
+}
+h1{
+    margin-left: 10px;
+    margin-block-start: 100px;
+    margin-block-end: -10px;
+    color: #87CEEB  ;
+    font-size: 30px;
+}
+h2{
+    margin: 0px;
+    justify-content: center;
+    color: white;
+}
+
+h4{
+    margin: 10px;
+    margin-block-end: 30px;
+    margin-left: 10px;
+    justify-content: center;
+    color:#FF1493 ;
+    margin-block-start: 25px;
+
+}
+
+p{
+    margin-left: 20px;
+}
+.menu {
+    background:#87CEEB;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #FEFE33;
+}
+
+.menu a:hover{
+
+    color:#FF1493;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_padrao{
+    margin-left: 55px;
+
+}
+.sobre-texto {
+    padding-top: 120px;
+    text-align: left;
+    margin-top: -49px;
+    margin-left: 320px;
+    margin-right: 400px;
+    text-indent: initial;
+    color: #FF1493;
+  }
+ 
+.Sobre{  
+    background: #FEFE33;
+    min-block-size: 390px;
+}
+
+      
+section.conteudos{
+    margin-block-start: 20px;
+    margin-block-end: 50px;
+    display: flex;
+    margin-left: 230px;
+    color:#FF1493;
+
+}
+.contatos{
+    background: #FEFE33;
+
+}
+section.contatos{
+    min-block-size: 70px;
+    color:#FF1493;
+}
+.img_redes{
+    
+   margin-left: 1171px;
+}
+.text-contatos.contatos{
+    font-size: small;
+    font-family: fantasy;
+    margin:center;
+    color:#FF1493;
+    
+}
